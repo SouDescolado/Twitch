@@ -1,0 +1,47 @@
+html {
+    background-color: #272727;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#skins {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skin {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skin img {
+    max-width: 100%;
+    height: auto;
+}
+
+#navbar-letter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#navbar-letter a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
